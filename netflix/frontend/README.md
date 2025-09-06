@@ -1,12 +1,51 @@
-# React + Vite
+# 🎬 React Movie Streaming App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive movie streaming application built with **React**.  
+The app features a dynamic user interface, an AI-powered movie recommendation system, and comprehensive movie details fetched from **The Movie Database (TMDb) API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **🔑 User Authentication**  
+  Secure authentication flow (Sign Up, Sign In, Sign Out) with session management.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **🏠 Dynamic Home Page**  
+  - Hero section showcasing a featured upcoming movie.  
+  - Interactive carousels for categorized lists like *Now Playing*, *Top Rated*, and *Popular*.  
+
+- **🤖 AI-Powered Recommendations**  
+  Multi-step questionnaire that guides users to discover personalized movie recommendations based on:  
+  - Genre  
+  - Mood  
+  - Decade  
+  - Language  
+  - Movie length  
+
+- **🎥 Movie Details Page**  
+  - Detailed information including overview, ratings, genres, and production details.  
+  - **Watch Now** button linking to the movie’s trailer on YouTube.  
+
+- **📱 Responsive Design**  
+  Fully responsive design with **Tailwind CSS**, optimized for mobile, tablet, and desktop.  
+
+---
+
+## 🛠️ Technologies Used
+
+- **Front-End:** React.js  
+- **Styling:** Tailwind CSS  
+- **State Management:** Zustand  
+- **Routing:** React Router  
+- **API Calls:** Axios  
+
+### 🔗 External APIs
+- [TMDb API](https://www.themoviedb.org/documentation/api) → Movie data  
+- [Google Gemini API](https://ai.google/) → AI-powered recommendations  
+
+---
+
+## 🎥 Demo
+
+
+---

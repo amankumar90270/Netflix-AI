@@ -27,7 +27,7 @@ function Navbar() {
         <img src={Logo} alt="" className="w-24 cursor-pointer brightness-125" />
       </Link>
 
-      <ul className="hidden xl:flex space-x-4">
+      <ul className="hidden md:flex space-x-4">
         <li className="cursor-pointer hover:text-[#e50914]">Home</li>
         <li className="cursor-pointer hover:text-[#e50914]">Tv Shows</li>
         <li className="cursor-pointer hover:text-[#e50914]">Movies</li>

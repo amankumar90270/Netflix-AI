@@ -16,14 +16,7 @@ function Moviepage() {
         }
     };
 
-
-   
-
-
-
-
-
-
+    
     useEffect(() => {
         fetch(`https://api.themoviedb.org/3/movie/${id}?language=en-US`, options)
             .then(res => res.json())

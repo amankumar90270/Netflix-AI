@@ -148,7 +148,7 @@ const AIrecommendations = () => {
       {Recommendations && Recommendations.length > 0 ? (
         <div className="w-full max-w-7xl mx-auto mt-2">
           <h2 className="text-2xl font-bold text-white text-center mb-4">AI Recommendation</h2>
-          <RecommendedMovies moviesTitle={Recommendations} />
+          <RecommendedMovies movieTitles={Recommendations} />
 
         </div>
       ) : (

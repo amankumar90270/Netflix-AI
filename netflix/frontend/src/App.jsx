@@ -7,7 +7,7 @@ import SignUp from './components/SignUp';
 import {Toaster} from "react-hot-toast";
 import { useAuthStore } from './store/authStore';
 import { useEffect } from 'react';
-import AIrecommendations from './pages/AIrecommendations';
+import AIrecommendations from './pages/AIRecommendations';
 
 const App = () => {
 
